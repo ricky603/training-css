@@ -1,0 +1,120 @@
+body {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.bottom {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bg-image {
+    height: 50%;
+    width: 100%;
+}
+
+.template1 {
+    z-index: 2;
+    position: relative;
+    height: 12.5em;
+    width: 21.875em;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 5px 100px 5px 5px;
+    padding-bottom: 0.75%;
+    left: 17%;
+    top: 150px;
+}
+
+.template2 {
+    z-index: 2;
+    position: relative;
+    width: 550px;
+    height: 175px;
+    left: 43%;
+    bottom: 24px;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 12px;
+}
+
+.progress-bar {
+    position: absolute;
+    height: 20px;
+    width: 80%;
+    margin-left: 10%;
+    bottom: 40%;
+    border-radius: 15px;
+    background-color: hsl(229, 57%, 11%);
+}
+
+.progress-line {
+    height: 20px;
+    width: 81.5%;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.gb {
+    position: absolute;
+    margin-left: 10%;
+    bottom: 55%;
+}
+
+.gb0 {
+    position: absolute;
+    margin-left: 10%;
+    bottom: 15%;
+}
+
+.gb1000 {
+    position: absolute;
+    margin-left: 80%;
+    bottom: 15%;
+}
+
+.logo {
+    padding: 12%;
+}
+
+.document {
+    position: absolute;
+    margin: 0 10% 10% 10%;
+    background-color: hsl(229, 57%, 11%);
+    height: 45px;
+    width: 45px;
+    border-radius: 20%;
+}
+
+.folder {
+    position: absolute;
+    margin: 0 10% 10% 30%;
+    background-color: hsl(229, 57%, 11%);
+    height: 45px;
+    width: 45px;
+    border-radius: 20%;
+}
+
+.upload {
+    position: absolute;
+    margin: 0 10% 10% 50%;
+    background-color: hsl(229, 57%, 11%);
+    height: 45px;
+    width: 45px;
+    border-radius: 20%;
+}
+
+.inside {
+    padding: 23% 50% 23% 25%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
