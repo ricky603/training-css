@@ -1,0 +1,98 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+h2 {
+    font-family: 'Manrope';
+    font-weight: 700;
+}
+
+#image {
+    display: inline-block;
+}
+
+.post {
+    position: absolute;
+    width: 52%;
+    display: inline-block;
+    margin: 0% 5% 1% 5%;
+}
+
+.body {
+    position: relative;
+    display: inline-block;
+    font-family: 'Manrope';
+    color: hsl(212, 23%, 69%);
+    bottom: 15px;
+}
+
+.head {
+    display: inline-block;
+    color: hsl(217, 19%, 35%);
+}
+
+.article {
+    position: fixed;
+    width: 850px;
+    height: 330px;
+    background-color: white;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -425px;
+    border-radius: 5px;
+}
+
+.drawer {
+    width: 330px;
+    height: 330px;
+    border-radius: 5px 0 0 5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.avatar {
+    display: inline-block;
+}
+
+.profile {
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 100%;
+}
+
+.profile-name {
+    position: relative;
+    width: 200px;
+    bottom: 10px;
+}
+
+.name {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+.date {
+    position: relative;
+    bottom: 5px;
+    font-family: 'Manrope';
+    font-size: 13px;
+    color: hsl(212, 23%, 69%);
+}
+
+.share {
+    position: absolute;
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+h2 {
+    font-family: 'Manrope';
+    font-weight: 700;
+}
+
+#image {
+    display: inline-block;
+}
+
+.post {
+    display: inline-block;
+    width: 57%;
+    margin-bottom: 20%;
+}
+
+.head {
+    display: inline-block;
+    color: hsl(217, 19%, 35%);
+}
+
+.article {
+    position: fixed;
+    width: 775px;
+    height: 275px;
+    background-color: white;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -375px;
+    border-radius: 5px;
+}
+
+.drawer {
+    width: 275px;
+    height: 275px;
+    border-radius: 5px 0 0 5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

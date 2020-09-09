@@ -1,0 +1,72 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+h2 {
+    font-family: 'Manrope';
+    font-weight: 700;
+}
+
+#image {
+    display: inline-block;
+}
+
+.post {
+    position: absolute;
+    width: 52%;
+    display: inline-block;
+    margin: 1% 5% 0% 5%;
+}
+
+.body {
+    position: relative;
+    display: inline-block;
+    font-family: 'Manrope';
+    font-weight: 500;
+    font-size: 16px;
+    color: hsl(212, 23%, 69%);
+    bottom: 15px;
+}
+
+.head {
+    display: inline-block;
+    color: hsl(217, 19%, 35%);
+}
+
+.article {
+    position: fixed;
+    width: 850px;
+    height: 330px;
+    background-color: white;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -425px;
+    border-radius: 5px;
+}
+
+.drawer {
+    width: 330px;
+    height: 330px;
+    border-radius: 5px 0 0 5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.avatar {
+    display: inline-block;
+}
+
+.profile {
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+}

@@ -1,0 +1,135 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+}
+
+h2 {
+    font-family: 'Manrope';
+    font-weight: 700;
+}
+
+#image {
+    display: inline-block;
+}
+
+.post {
+    position: absolute;
+    width: 52%;
+    display: inline-block;
+    margin: 0% 5% 0% 5%;
+}
+
+.body {
+    position: relative;
+    display: inline-block;
+    font-family: 'Manrope';
+    color: hsl(212, 23%, 69%);
+    bottom: 15px;
+}
+
+.head {
+    display: inline-block;
+    color: hsl(217, 19%, 35%);
+}
+
+.article {
+    position: fixed;
+    width: 850px;
+    height: 330px;
+    background-color: white;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -425px;
+    border-radius: 5px;
+}
+
+.drawer {
+    width: 330px;
+    height: 330px;
+    border-radius: 5px 0 0 5px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.avatar {
+    display: inline-block;
+    margin-bottom: 100%;
+}
+
+.profile {
+    height: 30%;
+    width: 30%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 10%;
+}
+
+.profile-name {
+    position: relative;
+    width: 200px;
+    bottom: 10px;
+}
+
+.name {
+    font-family: 'Manrope';
+    font-weight: 700;
+    font-size: 13px;
+    color: hsl(217, 19%, 35%);
+}
+
+.date {
+    position: relative;
+    bottom: 5px;
+    font-family: 'Manrope';
+    font-size: 13px;
+    color: hsl(212, 23%, 69%);
+}
+
+.share {
+    display: inline-block;
+    position: absolute;
+    left: 90%;
+    top: 35%;
+    background-color: hsl(210, 46%, 95%);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+}
+
+.icon {
+    position: absolute;
+    margin: 27%;
+}
+
+.speech-bubble {
+    display: inline-block;
+    position: absolute;
+    background: hsl(214, 17%, 51%);
+    width: 250px;
+    height: 50px;
+    border-radius: 12px;
+    left: 77%;
+    bottom: 35%;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 17px solid transparent;
+    border-top-color: hsl(214, 17%, 51%);
+    border-bottom: 0;
+    margin-left: -17px;
+    margin-bottom: -17px;
+}
